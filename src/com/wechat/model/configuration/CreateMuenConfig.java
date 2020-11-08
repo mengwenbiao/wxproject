@@ -1,12 +1,11 @@
-package com.wechat.test;
+package com.wechat.model.configuration;
 
 import com.wechat.model.bean.AccessToken;
-import com.wechat.model.configuration.TokenConfig;
 
 import cn.hutool.http.HttpUtil;
 
 //创建菜单
-public class CreateMuen {
+public class CreateMuenConfig {
 	
 	public static void main(String[] args) {
 		

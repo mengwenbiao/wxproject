@@ -117,6 +117,21 @@ public class TextTemplate {
 				"</xml>";
 		return template;
 	}
+	
+//	//回复某某某欢迎关注公众号
+//	public static String getTemplate(String nickname,Map<String, String> xmlMap) {
+//		String template="<xml>\r\n" + 
+//				"  <ToUserName><![CDATA["+xmlMap.get("FromUserName")+"]]></ToUserName>\r\n" + 
+//				"  <FromUserName><![CDATA["+xmlMap.get("ToUserName")+"]]></FromUserName>\r\n" + 
+//				"  <CreateTime>"+StringUtil.getWxCreateTime()+"</CreateTime>\r\n" + 
+//				"  <MsgType><![CDATA[text]]></MsgType>\r\n" + 
+//				"  <Content><![CDATA["+"欢迎"+nickname+getContent(1)+"]]></Content>\r\n" + 
+//				"</xml>";
+//		return template;
+//		
+//	}
+	
+	
 	//直接取出参数 
 	public static String getEventParamsTemplate(Map<String, String> xmlMap) {
 		
